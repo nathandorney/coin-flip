@@ -3,7 +3,7 @@ import { Coin, Info, Plus, PlusCircle, Warning, X } from "phosphor-react";
 import { useState, useEffect } from "react";
 
 function CoinFlip() {
-  const [options, setOptions] = useState(["Heads", "Tails"]);
+  const [options, setOptions] = useState(["Option 1", "Option 2"]);
   const [flipResult, setFlipResult] = useState("");
   const [isFlipping, setIsFlipping] = useState(false);
 
